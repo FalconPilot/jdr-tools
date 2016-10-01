@@ -1,0 +1,67 @@
+{
+  "humain": {
+    "name":   "Humain",
+    "min":    [0, 0, 0, 0, 0],
+    "max":    [20,20,20,20,20]
+  },
+  "barbare": {
+    "name":   "Barbare",
+    "min":    [12,0, 0, 0, 13],
+    "max":    [20,20,20,20,20]
+  },
+  "nain": {
+    "name":   "Nain",
+    "min":    [11,0, 0, 0, 12],
+    "max":    [20,20,20,20,20]
+  },
+  "haut_elfe": {
+    "name":   "Haut elfe",
+    "min":    [0, 11,12,12,0],
+    "max":    [20,20,20,20,12]
+  },
+  "demi_elfe": {
+    "name":   "Demi-elfe",
+    "min":    [0, 0, 10,11,0],
+    "max":    [20,20,20,20,20]
+  },
+  "elfe_sylvain": {
+    "name":   "Elfe sylvain",
+    "min":    [0, 0, 12,10,0],
+    "max":    [20,20,20,20,11]
+  },
+  "elfe_noir": {
+    "name":   "Elfe noir",
+    "min":    [0, 12,0, 13,0],
+    "max":    [20,20,20,20,20]
+  },
+  "orque": {
+    "name":   "Orque",
+    "min":    [0, 0, 0, 0, 12],
+    "max":    [20,8, 10,20,20]
+  },
+  "demi_orque": {
+    "name":   "Demi-orque",
+    "min":    [0, 0, 0, 0, 12],
+    "max":    [20,10,0, 11,20]
+  },
+  "gobelin": {
+    "name":   "Gobelin",
+    "min":    [0, 0, 0, 0, 0],
+    "max":    [10,10,8, 20,9]
+  },
+  "ogre": {
+    "name":   "Ogre",
+    "min":    [0, 0, 0, 0, 13],
+    "max":    [20,9, 10,11,20]
+  },
+  "hobbit": {
+    "name":   "Semi-homme",
+    "min":    [12,10,0, 0, 0],
+    "max":    [20,20,20,20,10]
+  },
+  "gnome": {
+    "name":   "Gnôme des forêts du nord",
+    "min":    [0, 10,0, 13,0],
+    "max":    [20,20,20,20,8]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cou": {
+    "name":   "Courage",
+    "value":  8,
+    "color":  "pin"
+  },
+  "int": {
+    "name":   "Intelligence",
+    "value":  8,
+    "color":  "blu"
+  },
+  "cha": {
+    "name":   "Charisme",
+    "value":  8,
+    "color":  "yel"
+  },
+  "adr": {
+    "name":   "Adresse",
+    "value":  8,
+    "color":  "gre"
+  },
+  "for": {
+    "name":   "Force",
+    "value":  8,
+    "color":  "red"
+  }
+}
