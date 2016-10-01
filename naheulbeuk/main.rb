@@ -1,6 +1,7 @@
 begin
   require 'json'
 
+  # Define colors
   def set_colors()
     @colors = {
       "std":  "\033[0m",
@@ -12,16 +13,19 @@ begin
     }
   end
 
+  # Import JSON file
   def import_json(src)
     JSON.parse(File.read(src))
   end
 
+  # Calculate stats
   def calc_stats(src)
     list = import_json(src)
     list.map { |k,v| v["value"] += rand(1..6) }
     list
   end
 
+  # Calculate elements of list
   def calc_list(src, stats)
     list = import_json(src)
     result = []
@@ -40,14 +44,16 @@ begin
     result
   end
 
+  # Display header
   def header(text, color = @colors[:std])
-    line = "====================================="
+    line = "================================"
     spaces = " " * ((line.length - text.length) / 2)
     puts "#{color}#{line}"
     puts "#{spaces}#{text}#{spaces}"
     puts "#{line}#{@colors[:std]}"
   end
 
+  # Display result
   def display_result(stats, origins, metiers)
     header("Statistiques", @colors[:gre])
     stats.each do |key, stat|
@@ -68,6 +74,7 @@ begin
     puts ""
   end
 
+  # Main code
   set_colors
   stats = calc_stats("src/stats.json")
   origins = calc_list("src/origins.json", stats)
